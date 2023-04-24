@@ -43,6 +43,7 @@ body {
     line-height: 1.2;
     width: 100%;
     color: #0f0f0f;
+    max-height: 500px ;
 }
 
 header {
@@ -85,18 +86,16 @@ section{
 
 section#inicio {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 section#contacto {
-    display: flexbox;
-    flex-wrap: wrap;
-    flex-direction: column;
+    height: 700px;
     padding-top: 100px;
 }
 
 figure.presentacion-img {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     
 }
 
@@ -123,6 +122,7 @@ article.hablemos {
     text-align: center;
     padding: 10px 20px;
     border-radius: 15px;
+    margin-top: 40px;
 }
 
 h1{
@@ -143,6 +143,9 @@ img {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
